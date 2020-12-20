@@ -1,0 +1,79 @@
+.leftTabMainClass{
+  width: 15vw;
+  background-image: linear-gradient(to left, rgb(0, 75, 137), rgb(0, 153, 217));
+  height: 99%;
+}
+@media screen and (max-width:1700px){
+  .leftTabMainClass{
+    width: 17vw !important;
+  }
+}
+@media screen and (max-width:1500px){
+  .leftTabMainClass{
+    width: 19vw !important;
+  }
+}
+.profilePhotoFirstRow{
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+}
+.profilePhotoFirst{
+  border-radius: 50%;
+  margin-top: 25px;
+  padding-left: 20px;
+
+}
+.profilePhotoSecond{
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.leftTabTextDiv{
+  margin-top: 40px;
+  padding-right: 10px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.leftTabText{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center !important;
+  color: white;
+  background-color: rgba(255,255,255,20%);
+  height: 90px;
+}
+.boxTextButton{
+  font-size: 17px;
+  width: 180px;
+  padding-top : 8px ;
+color:  rgb(255, 255, 255,.9);
+border: 1px solid rgb(255, 255, 255,.5);
+background-color: rgb(255, 255, 255,.1);
+border-radius: 10px;
+height: 45px;
+cursor: pointer;
+}
+.okIcon{
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.collapseLinkteraClass{
+  margin-left: 30px;
+  padding-top: 5px;
+  font-size: 13px;
+}
+.buttonClass{
+  margin-left: 15px;
+}
+@media screen and (max-width:1440px){
+  .buttonClass{
+    margin-left: 1px !important;
+  }
+  .boxTextButton{
+
+  }
+}
